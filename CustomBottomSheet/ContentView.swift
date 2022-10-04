@@ -22,7 +22,7 @@ struct ContentView: View {
                 Text("Open Bottom Sheet")
             }
             
-            BottomSheet(isShowing: $isShowingBottomSheet, content: BottomSheetType.offline.view())
+            BottomSheet(isShowing: $isShowingBottomSheet, content: BottomSheetType.online.view())
         }
     }
 }

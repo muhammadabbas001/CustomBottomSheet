@@ -39,7 +39,7 @@ struct OnlineBottomSheet: View{
             .frame(height: buttonHeight)
             .padding(.vertical, 2)
             
-            ButtonLarge(label: "Stay Offline", background: .pink.opacity(0.95), textColor: .white, action: {
+            ButtonLarge(label: "Stay Offline", background: .black.opacity(0.95), textColor: .white, action: {
                 // Action will be here
             })
             .frame(height: buttonHeight)

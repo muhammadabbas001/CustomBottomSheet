@@ -22,7 +22,6 @@ enum BottomSheetType: Int {
 }
 
 struct BottomSheet: View {
-    @Environment(\.colorScheme) var colorScheme
 
     @Binding var isShowing: Bool
     var content: AnyView
